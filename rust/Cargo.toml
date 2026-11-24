@@ -1,0 +1,15 @@
+[package]
+name = "wreq_ffi"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "wreq"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+wreq = "0.16.3"
+wreq-util = "0.2.1"
+tokio = { version = "1", features = ["rt-multi-thread", "sync", "macros"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

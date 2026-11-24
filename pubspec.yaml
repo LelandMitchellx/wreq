@@ -1,0 +1,22 @@
+name: wreq
+description: Cross-platform Dart & Flutter native bindings for the wreq HTTP and browser emulation client.
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  code_assets: ^2.0.0
+  ffi: ^2.2.0
+  hooks: ^2.2.0
+  logging: ^1.3.0
+  native_toolchain_rust: ^1.0.7
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  test: ^1.28.0

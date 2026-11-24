@@ -1,0 +1,60 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+.pi/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+.metadata
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Flutter / Dart / Pub
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
+/pubspec.lock
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+/build/
+/coverage/
+
+# Rust & Native Assets
+target/
+**/target/
+**/*.rs.bk
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+*.exp
+*.obj
+*.o
+*.ilk
+*.dSYM/
